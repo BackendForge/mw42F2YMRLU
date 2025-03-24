@@ -7,18 +7,26 @@ Unfortunately, my further research and investigation within the MakerDao protoco
 There are many things that do not add up:
 
 - Oracles - haven't dig deep enough, which are used and which LPs are used by the Oracles
-- sDAI - if that is 1:1 converted with DAI (a.k. a pDAI), there are arbitrage opportunities, that are currently being exploited by some actors
 - Vaults - PLS = pWETH 1:1 (sending PLS to pWETH address, returns pWETH in that amount) - arbitrage via borrowing DAI - is that why all `ETH` ilks are fully in debt?
 - stETH - same as above, PLS = stETH 1:1. you can literally MINT stETH and borrow DAI against it. Currently fully utilized in the Maker protocol
 - whenever price of asset seen in the vault (as a collateral) is higher than the price of the asset in the market, there is an arbitrage opportunity (BUY in the market, MINT in the vault, BORROW DAI, SELL in the market, REPAY DAI, EXIT the vault, PROFIT)
 - can you flash loan via other protocols and use the DAI to repay the debt in the Maker protocol?
 
-`0x30FCB23A906493371b1721C8feb8815804808D74` - sDAI
-
 ## On going investigation
 
-- [ ] what is sDAI?
+- [x] what is sDAI?
 - [ ] Oracles used for the protocol, to define ratios with pDAI (Spotter, Median) - how are they calculated?
+
+### Research
+
+- sDAI - coin created by the `https://sparkswap.xyz/`, supposed role 1:1 with eDAI. example arbitrage transaction: `0x2a7eeced336e1a70aeb0e8f9b7437b3fe12f2230d8e127d670a86ad2dae43a22`
+
+`0x30FCB23A906493371b1721C8feb8815804808D74` - sDAI
+
+OSM - Oracle Security Module
+
+The Oracle Security Module (OSM) is a protective delay buffer between MakerDAO's real-time oracles (e.g. Median) and the rest of the protocol (like Spotter and Liquidation Engine).
+It holds the "next" price, and updates it once per hour to allow governance actions or pauses before reacting to volatile price changes.
 
 ## How to run the script
 
