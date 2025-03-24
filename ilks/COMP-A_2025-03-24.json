@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0603892043172485,
+    "stability_fee": 6.038920431724848,
+    "spot_price": 6.228202827006905,
+    "liquidation_ratio": 0.16055996051762675,
+    "debt_ceiling": 0.0,
+    "dust_limit": 10000.0,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "Compound",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+}

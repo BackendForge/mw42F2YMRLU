@@ -1,0 +1,15 @@
+{
+    "total_debt": 633198.6699205653,
+    "current_rate": 1.115863647083734,
+    "stability_fee": 11.586364708373399,
+    "spot_price": 3.9818181818181815,
+    "liquidation_ratio": 0.25114155251141557,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 706563.3771461315,
+    "utilization": 0,
+    "collateral_token": "ChainLink Token",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+}

@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 1.0,
+    "liquidation_ratio": 1.0,
+    "debt_ceiling": 5000000.0,
+    "dust_limit": 0.0,
+    "current_debt": 0.0,
+    "utilization": 0.0,
+    "collateral_token": "Aave interest bearing DAI",
+    "is_live": 4,
+    "decimals": 18,
+    "address": "0x028171bCA77440897B824Ca71D1c56caC55b68A3"
+}

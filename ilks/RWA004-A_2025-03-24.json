@@ -1,0 +1,15 @@
+{
+    "total_debt": 1311693.2031110728,
+    "current_rate": 1.2774893142447794,
+    "stability_fee": 27.74893142447794,
+    "spot_price": 8014300.0,
+    "liquidation_ratio": 1.2477696118188738e-07,
+    "debt_ceiling": 7000000.0,
+    "dust_limit": 0.0,
+    "current_debt": 1675674.0505419024,
+    "utilization": 23.93820072202718,
+    "collateral_token": "RWA004-A: Centrifuge: Harbor Trade Credit",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0x873F2101047A62F84456E3B2B13df2287925D3F9"
+}

@@ -1,0 +1,15 @@
+{
+    "total_debt": 3831238.953034219,
+    "current_rate": 1.1051360461490722,
+    "stability_fee": 10.513604614907223,
+    "spot_price": 42.81101303429823,
+    "liquidation_ratio": 0.02335847552121333,
+    "debt_ceiling": 5000000.0,
+    "dust_limit": 100000.00000000001,
+    "current_debt": 4234040.268408548,
+    "utilization": 84.68080536817097,
+    "collateral_token": "Gnosis Token",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96"
+}

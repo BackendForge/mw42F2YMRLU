@@ -1,0 +1,15 @@
+{
+    "total_debt": 184959.74450852504,
+    "current_rate": 1.1110280906535213,
+    "stability_fee": 11.102809065352126,
+    "spot_price": 0.5374285714285715,
+    "liquidation_ratio": 1.8607123870281763,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 205495.47178906968,
+    "utilization": 0,
+    "collateral_token": "Matic Token",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+}

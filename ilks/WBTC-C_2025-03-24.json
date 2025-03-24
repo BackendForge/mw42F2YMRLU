@@ -1,0 +1,15 @@
+{
+    "total_debt": 34029338.94208896,
+    "current_rate": 1.1078943930776208,
+    "stability_fee": 10.789439307762084,
+    "spot_price": 50254.43714285715,
+    "liquidation_ratio": 1.9898740426787047e-05,
+    "debt_ceiling": 57647524.01171769,
+    "dust_limit": 3500.0,
+    "current_debt": 37700913.8140783,
+    "utilization": 65.39901662804294,
+    "collateral_token": "Wrapped BTC",
+    "is_live": 1,
+    "decimals": 8,
+    "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+}

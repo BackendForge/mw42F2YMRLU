@@ -1,0 +1,15 @@
+{
+    "total_debt": 5078022.791456328,
+    "current_rate": 1.1446305398866108,
+    "stability_fee": 14.463053988661079,
+    "spot_price": 21424500.0,
+    "liquidation_ratio": 4.6675535018320146e-08,
+    "debt_ceiling": 20000000.0,
+    "dust_limit": 0.0,
+    "current_debt": 5812459.969341171,
+    "utilization": 29.06229984670585,
+    "collateral_token": "RWA002-A: Centrifuge: New Silver",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0xAAA760c2027817169D7C8DB0DC61A2fb4c19AC23"
+}

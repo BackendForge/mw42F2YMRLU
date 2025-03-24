@@ -1,0 +1,15 @@
+{
+    "total_debt": 13725352450.789654,
+    "current_rate": 1.1195227795652882,
+    "stability_fee": 11.952277956528823,
+    "spot_price": 1796.544827586207,
+    "liquidation_ratio": 0.0005566240177505479,
+    "debt_ceiling": 15000000000.000002,
+    "dust_limit": 7500.000000000001,
+    "current_debt": 15365844726.221273,
+    "utilization": 102.43896484147514,
+    "collateral_token": "Wrapped Ether",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+}

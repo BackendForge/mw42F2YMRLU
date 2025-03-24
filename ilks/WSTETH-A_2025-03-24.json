@@ -1,0 +1,15 @@
+{
+    "total_debt": 470037224.65200746,
+    "current_rate": 1.0638792968515682,
+    "stability_fee": 6.3879296851568235,
+    "spot_price": 2484.5009458603545,
+    "liquidation_ratio": 0.00040249531869415787,
+    "debt_ceiling": 500000000.00000006,
+    "dust_limit": 7500.000000000001,
+    "current_debt": 500062872.0568403,
+    "utilization": 100.01257441136804,
+    "collateral_token": "Wrapped liquid staked Ether 2.0",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+}

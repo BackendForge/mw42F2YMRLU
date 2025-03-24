@@ -1,8 +1,26 @@
 # mw42F2YMRLU
 
-The Free Speech is being restored. Loading. . .
+The Free Speech HAS NOT BEEN restored. I have been lied to, deceived with hope and dreams.
 
-## How to
+Unfortunately, my further research and investigation within the MakerDao protocol deployed on the PulseChain shows me more evidence, that the protocol is not fully decentralized and the governance is not fully transparent.
+
+There are many things that do not add up:
+
+- Oracles - haven't dig deep enough, which are used and which LPs are used by the Oracles
+- sDAI - if that is 1:1 converted with DAI (a.k. a pDAI), there are arbitrage opportunities, that are currently being exploited by some actors
+- Vaults - PLS = pWETH 1:1 (sending PLS to pWETH address, returns pWETH in that amount) - arbitrage via borrowing DAI - is that why all `ETH` ilks are fully in debt?
+- stETH - same as above, PLS = stETH 1:1. you can literally MINT stETH and borrow DAI against it. Currently fully utilized in the Maker protocol
+- whenever price of asset seen in the vault (as a collateral) is higher than the price of the asset in the market, there is an arbitrage opportunity (BUY in the market, MINT in the vault, BORROW DAI, SELL in the market, REPAY DAI, EXIT the vault, PROFIT)
+- can you flash loan via other protocols and use the DAI to repay the debt in the Maker protocol?
+
+`0x30FCB23A906493371b1721C8feb8815804808D74` - sDAI
+
+## On going investigation
+
+- [ ] what is sDAI?
+- [ ] Oracles used for the protocol, to define ratios with pDAI (Spotter, Median) - how are they calculated?
+
+## How to run the script
 
 - install Python 3.11+
 - install the required packages with `pip install -r requirements.txt`

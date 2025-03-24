@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.4163353072552276,
+    "stability_fee": 41.63353072552276,
+    "spot_price": 0.3334712586334487,
+    "liquidation_ratio": 2.9987591857180087,
+    "debt_ceiling": 0.0,
+    "dust_limit": 10000.0,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "Tether USD",
+    "is_live": 1,
+    "decimals": 6,
+    "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+}

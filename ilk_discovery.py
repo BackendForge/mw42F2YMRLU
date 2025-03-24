@@ -1,3 +1,5 @@
+from datetime import datetime
+import json
 import os
 from web3 import Web3
 from dotenv import load_dotenv
@@ -18,7 +20,7 @@ ILK_REGISTRY_ABI = [
         ],
         "stateMutability": "nonpayable",
         "type": "constructor",
-    },  
+    },
     {
         "anonymous": False,
         "inputs": [
@@ -855,9 +857,9 @@ all_ilks = [Web3.to_text(ilk).replace("\x00", "") for ilk in all_ilks_bytes]
 print(f"Active Ilks: {all_ilks}")
 
 
-
 def get_ilk_bytes(ilk: str) -> bytes:
     return Web3.to_bytes(text=ilk).ljust(32, b"\x00")
+
 
 def get_ilk_details(ilk_bytes: bytes):
     # Call the info() function with the correct ilk
@@ -870,7 +872,7 @@ def get_ilk_details(ilk_bytes: bytes):
         # print(f"Price feed (pip): {ilk_info[1]}")
         print(f"Is Live: {ilk_info[2]}")
         print(f"Decimals: {ilk_info[3]}")
-        print(f"Address: {ilk_info[4]}\n")    
+        print(f"Address: {ilk_info[4]}\n")
     except Exception as e:
         print(f"Error fetching extra info for {ilk}: {e}")
     else:
@@ -881,12 +883,17 @@ def get_ilk_details(ilk_bytes: bytes):
             "address": ilk_info[4],
         }
     Art, rate, spot, line, dust = vat.functions.ilks(ilk_bytes).call()
+    current_debt = (Art / 1e18) * (rate / 1e27)
     return {
         "total_debt": Art / 1e18,
+        "current_rate": rate / 1e27,
         "stability_fee": (rate / 1e27 - 1) * 100,  # APR %
+        "spot_price": spot / 1e27,
         "liquidation_ratio": 1 / (spot / 1e27),  # e.g., 1.5 → 150%
         "debt_ceiling": line / 1e45,
         "dust_limit": dust / 1e45,
+        "current_debt": current_debt,
+        "utilization": current_debt / (line / 1e45) * 100 if line > 0 else 0,  # %
         **extra_info,
     }
 
@@ -895,13 +902,16 @@ for ilk in all_ilks:
     try:
         ilk_bytes = get_ilk_bytes(ilk)
         details = get_ilk_details(ilk_bytes)
-        
+
     except Exception as e:
         print(f"Error fetching details for {ilk}: {e}")
         continue
     print(f"Ilk: {ilk}")
     print(f"Details: {details}")
     print()
+    current_day = datetime.now().strftime("%Y-%m-%d")
+    with open(f"ilks/{ilk}_{current_day}.json", "w") as f:
+        json.dump(details, f, indent=4)
 
 
 def extract_ilks_from_logs():

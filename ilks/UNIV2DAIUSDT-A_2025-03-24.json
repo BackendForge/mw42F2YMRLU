@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0882639894580914,
+    "stability_fee": 8.826398945809144,
+    "spot_price": 2011302.3619519616,
+    "liquidation_ratio": 4.971902877046809e-07,
+    "debt_ceiling": 0.0,
+    "dust_limit": 10000.0,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "Uniswap V2",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405"
+}

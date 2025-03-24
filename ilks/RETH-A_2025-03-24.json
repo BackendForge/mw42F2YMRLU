@@ -1,0 +1,15 @@
+{
+    "total_debt": 19700358.76137647,
+    "current_rate": 1.0152343583340002,
+    "stability_fee": 1.523435833400022,
+    "spot_price": 1778.187530210716,
+    "liquidation_ratio": 0.0005623703816444487,
+    "debt_ceiling": 20000000.0,
+    "dust_limit": 7500.000000000001,
+    "current_debt": 20000481.08605564,
+    "utilization": 100.0024054302782,
+    "collateral_token": "Rocket Pool ETH",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0xae78736Cd615f374D3085123A210448E74Fc6393"
+}

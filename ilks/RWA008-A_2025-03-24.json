@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0013131672479565,
+    "stability_fee": 0.13131672479564926,
+    "spot_price": 30043520.66559934,
+    "liquidation_ratio": 3.3285047086542946e-08,
+    "debt_ceiling": 0.0,
+    "dust_limit": 0.0,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "RWA008-A: SG Forge OFH",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0xb9737098b50d7c536b6416dAeB32879444F59fCA"
+}

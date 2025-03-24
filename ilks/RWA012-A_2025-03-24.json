@@ -1,0 +1,15 @@
+{
+    "total_debt": 26908182.236350942,
+    "current_rate": 1.0929587145094153,
+    "stability_fee": 9.29587145094153,
+    "spot_price": 36499587.0,
+    "liquidation_ratio": 2.739757027935686e-08,
+    "debt_ceiling": 30000000.000000004,
+    "dust_limit": 0.0,
+    "current_debt": 29409532.26682721,
+    "utilization": 98.03177422275736,
+    "collateral_token": "RWA012-A: Centrifuge: BlockTower Credit (III)",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0x3c7f1379B5ac286eB3636668dEAe71EaA5f7518c"
+}

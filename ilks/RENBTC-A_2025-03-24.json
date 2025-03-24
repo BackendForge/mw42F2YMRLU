@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.1203107668065686,
+    "stability_fee": 12.03107668065686,
+    "spot_price": 1758.9053000000001,
+    "liquidation_ratio": 0.0005685354407653441,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "renBTC",
+    "is_live": 1,
+    "decimals": 8,
+    "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D"
+}

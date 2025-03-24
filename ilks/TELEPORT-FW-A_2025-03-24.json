@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 1.0,
+    "liquidation_ratio": 1.0,
+    "debt_ceiling": 2100000.0000000005,
+    "dust_limit": 0.0,
+    "current_debt": 0.0,
+    "utilization": 0.0,
+    "collateral_token": "",
+    "is_live": 4,
+    "decimals": 0,
+    "address": "0x0000000000000000000000000000000000000000"
+}

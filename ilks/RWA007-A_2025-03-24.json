@@ -1,0 +1,15 @@
+{
+    "total_debt": 682450318.233675,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 1250000000.0,
+    "liquidation_ratio": 8e-10,
+    "debt_ceiling": 1250000000.0,
+    "dust_limit": 0.0,
+    "current_debt": 682450318.233675,
+    "utilization": 54.596025458694,
+    "collateral_token": "RWA007-A: Monetalis Clydesdale",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0x078fb926b041a816FaccEd3614Cf1E4bc3C723bD"
+}

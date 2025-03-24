@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 2.9467763121653046,
+    "stability_fee": 194.67763121653044,
+    "spot_price": 0.271750356,
+    "liquidation_ratio": 3.6798479851853436,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "Decentraland MANA",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+}

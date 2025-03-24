@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0594356160422171,
+    "stability_fee": 5.943561604221714,
+    "spot_price": 7.180589268632478,
+    "liquidation_ratio": 0.1392643364756117,
+    "debt_ceiling": 0.0,
+    "dust_limit": 10000.0,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "Aave Token",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+}

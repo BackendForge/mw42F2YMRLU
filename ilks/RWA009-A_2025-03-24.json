@@ -1,0 +1,15 @@
+{
+    "total_debt": 100000000.0,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 100000000.0,
+    "liquidation_ratio": 1e-08,
+    "debt_ceiling": 100000000.0,
+    "dust_limit": 0.0,
+    "current_debt": 100000000.0,
+    "utilization": 100.0,
+    "collateral_token": "RWA009-A: H. V. Bank",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0x8b9734bbaA628bFC0c9f323ba08Ed184e5b88Da2"
+}

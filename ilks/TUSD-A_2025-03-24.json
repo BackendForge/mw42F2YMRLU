@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0165186916255597,
+    "stability_fee": 1.6518691625559745,
+    "spot_price": 0.6666666666666666,
+    "liquidation_ratio": 1.5,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "TrueUSD",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+}

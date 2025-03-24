@@ -1,0 +1,15 @@
+{
+    "total_debt": 0.0,
+    "current_rate": 1.0354819892356164,
+    "stability_fee": 3.5481989235616407,
+    "spot_price": 0.06666666666666667,
+    "liquidation_ratio": 15.0,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 0.0,
+    "utilization": 0,
+    "collateral_token": "Gemini dollar",
+    "is_live": 1,
+    "decimals": 2,
+    "address": "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd"
+}

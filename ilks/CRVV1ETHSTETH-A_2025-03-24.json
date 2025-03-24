@@ -1,0 +1,15 @@
+{
+    "total_debt": 97742236.39935917,
+    "current_rate": 1.0512386140426992,
+    "stability_fee": 5.123861404269925,
+    "spot_price": 3727.4513770021063,
+    "liquidation_ratio": 0.0002682798241634675,
+    "debt_ceiling": 100000000.0,
+    "dust_limit": 25000.000000000004,
+    "current_debt": 102750413.1258962,
+    "utilization": 102.75041312589619,
+    "collateral_token": "Curve.fi ETH/stETH",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x06325440D014e39736583c165C2963BA99fAf14E"
+}

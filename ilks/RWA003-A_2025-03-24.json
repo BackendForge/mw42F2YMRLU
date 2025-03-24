@@ -1,0 +1,15 @@
+{
+    "total_debt": 1680778.7909521197,
+    "current_rate": 1.23480078921932,
+    "stability_fee": 23.480078921932,
+    "spot_price": 2247200.0,
+    "liquidation_ratio": 4.4499822000712e-07,
+    "debt_ceiling": 2000000.0000000002,
+    "dust_limit": 0.0,
+    "current_debt": 2075426.977570772,
+    "utilization": 103.77134887853859,
+    "collateral_token": "RWA003-A: Centrifuge: ConsolFreight",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0x07F0A80aD7AeB7BfB7f139EA71B3C8f7E17156B9"
+}

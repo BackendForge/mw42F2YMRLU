@@ -1,0 +1,15 @@
+{
+    "total_debt": 5370099.708866588,
+    "current_rate": 1.1727168495282196,
+    "stability_fee": 17.271684952821964,
+    "spot_price": 16380375.238095239,
+    "liquidation_ratio": 6.104866252845885e-08,
+    "debt_ceiling": 15000000.000000002,
+    "dust_limit": 0.0,
+    "current_debt": 6297606.412234434,
+    "utilization": 41.984042748229555,
+    "collateral_token": "RWA005-A: Centrifuge: Fortunafi",
+    "is_live": 3,
+    "decimals": 18,
+    "address": "0x6DB236515E90fC831D146f5829407746EDdc5296"
+}

@@ -1,0 +1,15 @@
+{
+    "total_debt": 499999999.99997425,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 1.0,
+    "liquidation_ratio": 1.0,
+    "debt_ceiling": 500000000.00000006,
+    "dust_limit": 0.0,
+    "current_debt": 499999999.99997425,
+    "utilization": 99.99999999999484,
+    "collateral_token": "Paxos Standard",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1"
+}

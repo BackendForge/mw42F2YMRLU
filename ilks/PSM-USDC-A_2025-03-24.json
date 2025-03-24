@@ -1,0 +1,15 @@
+{
+    "total_debt": 3783203069.64284,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 1.0,
+    "liquidation_ratio": 1.0,
+    "debt_ceiling": 4101038728.484745,
+    "dust_limit": 0.0,
+    "current_debt": 3783203069.64284,
+    "utilization": 92.2498742419987,
+    "collateral_token": "USD Coin",
+    "is_live": 1,
+    "decimals": 6,
+    "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+}

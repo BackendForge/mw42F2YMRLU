@@ -1,0 +1,15 @@
+{
+    "total_debt": 4.37212589e-10,
+    "current_rate": 1.0,
+    "stability_fee": 0.0,
+    "spot_price": 1.0,
+    "liquidation_ratio": 1.0,
+    "debt_ceiling": 5000000.000000001,
+    "dust_limit": 0.0,
+    "current_debt": 4.37212589e-10,
+    "utilization": 8.744251779999997e-15,
+    "collateral_token": "Compound Dai",
+    "is_live": 4,
+    "decimals": 8,
+    "address": "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643"
+}

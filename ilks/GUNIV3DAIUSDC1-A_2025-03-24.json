@@ -1,0 +1,15 @@
+{
+    "total_debt": 59704070.40016316,
+    "current_rate": 1.002697092559673,
+    "stability_fee": 0.26970925596729867,
+    "spot_price": 1050.4375498298557,
+    "liquidation_ratio": 0.0009519842470996727,
+    "debt_ceiling": 0.0,
+    "dust_limit": 15000.000000000002,
+    "current_debt": 59865097.80422163,
+    "utilization": 0,
+    "collateral_token": "Gelato Uniswap DAI/USDC LP",
+    "is_live": 1,
+    "decimals": 18,
+    "address": "0xAbDDAfB225e10B90D798bB8A886238Fb835e2053"
+}
