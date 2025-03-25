@@ -68,12 +68,11 @@ def get_address(label):
 
 # labels = [ "MCD_DOG", "MCD_END", "MCD_CLIP_ETH_A", "MCD_SPOT"]
 labels_encoded = chainlog.functions.list().call()
-keys = []
+keys = {}
 for label in labels_encoded:
     key_str = label.rstrip(b"\0").decode("utf-8")
-    keys.append(key_str)
-    address = get_address(key_str)
-    logging.info(f"{key_str} address: {address}")
+    keys[key_str] = get_address(key_str)
+    logging.info(f"{key_str} address: {keys[key_str]}")
 logging.info(keys)
 
 # save to file
