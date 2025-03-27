@@ -35,6 +35,16 @@ It holds the "next" price, and updates it once per hour to allow governance acti
 - get `.env` ready, you can use `.env.example` as a template
 - run the script with `python ilk_discovery.py`
 
+## tHE UNKNOWNS
+
+```bash
+0xf5a05b8774910FE5dCa36E8b2292C2ccC0c8A191 # VatDaiFlashLoan ????
+```
+
+- Is he preparing for a flash loan attack?
+- Can he use it for the auctions?
+- Can he use LPs to flash loan DAI and repay the debt in the Maker protocol?
+
 ## Extra stuff
 
 Just enjoy, spread the love and the knowledge.
